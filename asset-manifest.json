@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ankitmohanty18/Ecommerce.git/static/css/main.f75f204e.css",
+    "main.js": "/ankitmohanty18/Ecommerce.git/static/js/main.2ae98dd6.js",
+    "index.html": "/ankitmohanty18/Ecommerce.git/index.html",
+    "main.f75f204e.css.map": "/ankitmohanty18/Ecommerce.git/static/css/main.f75f204e.css.map",
+    "main.2ae98dd6.js.map": "/ankitmohanty18/Ecommerce.git/static/js/main.2ae98dd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f75f204e.css",
+    "static/js/main.2ae98dd6.js"
+  ]
+}
