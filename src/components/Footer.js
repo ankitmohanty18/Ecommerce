@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {BsLinkedin, BsGithub, BsYoutube, BsInstagram} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -24,10 +26,57 @@ const Footer = () => {
     <footer className='py-4'>
       <div className="container-xxl">
         <div className="row">
-          <div className="col-4"></div>
-          <div className="col-3"></div>
-          <div className="col-3"></div>
-          <div className="col-2"></div>
+          <div className="col-4">
+            <h4 className='text-white mb-4'>Contact Us</h4>
+            <div className='text-white d-flex flex-column'>
+              <address className='fs-6'>
+              Demo Store<br/>No. 1259 Freedom, New York, 111111
+              <br/>United States
+              </address>
+              <a href="tel:+91 8256760998" className="mt-2 d-block mb-1 text-white">+91 8256760998</a>
+              <a href="mailto:info@shopdev.com" className="mt-2 d-block mb-0 text-white">info@shopdev.com</a>
+              <div className="social_icons d-flex align-items-center gap-30 mt-4">
+                <a className='text-white' href="/#">
+                  <BsLinkedin className='fs-4'/>
+                </a>
+                <a className='text-white' href="/#">
+                  <BsInstagram className='fs-4'/>
+                </a>
+                <a className='text-white' href="/#">
+                  <BsGithub className='fs-4'/>
+                </a>
+                <a className='text-white' href="/#">
+                  <BsYoutube className='fs-4'/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <h4 className='text-white mb-4'>Information</h4>
+            <div className='footer-links d-flex flex-column'>
+              <Link className='text-white py-2 mb-1'>Privacy Policy</Link>
+              <Link className='text-white py-2 mb-1'>Refund Policy</Link>
+              <Link className='text-white py-2 mb-1'>Shipping Policy</Link>
+              <Link className='text-white py-2 mb-1'>Terms of Service</Link>
+            </div>
+          </div>
+          <div className="col-3">
+            <h4 className='text-white mb-4'>Account</h4>
+            <div className='footer-links d-flex flex-column'>
+              <Link className='text-white py-2 mb-1'>About Us</Link>
+              <Link className='text-white py-2 mb-1'>FAQ</Link>
+              <Link className='text-white py-2 mb-1'>Contact</Link>
+            </div>
+          </div>
+          <div className="col-2">
+            <h4 className='text-white mb-4'>Quick Links</h4>
+            <div className='footer-links d-flex flex-column'>
+              <Link className='text-white py-2 mb-1'>Laptops</Link>
+              <Link className='text-white py-2 mb-1'>Headphones</Link>
+              <Link className='text-white py-2 mb-1'>Tablets</Link>
+              <Link className='text-white py-2 mb-1'>Watch</Link>
+            </div>
+          </div>
         </div>
       </div>
 
