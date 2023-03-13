@@ -7,7 +7,11 @@ const SpecialProduct = () => {
       <div className="special-product-card">
         <div className="d-flex ">
           <div>
-            <img className="img-fluid" src="images/watch.jpg" alt="watch" />
+            <img
+              className="img-fluid"
+              src={require("../images/watch.jpg")}
+              alt="watch"
+            />
           </div>
           <div>
             <div className="special-product-content">
@@ -16,7 +20,7 @@ const SpecialProduct = () => {
               <ReactStars
                 count={5}
                 size={24}
-                value={4}
+                value={5}
                 edit={false}
                 activeColor="#ffd700"
               />
